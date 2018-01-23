@@ -19,7 +19,7 @@ Tutorial and resources to replace Ditto Blog tags with Doclister
 * Display tags in Doclister item
 * Display tags on (item) page
 
-# Create a Doclister Blog like in Ditto:
+# Create a Doclister Blog like in Ditto or Update your old Ditto Blog to Doclister
 
 #### NOTE: the tutorial is based and tested on evolution 1.4 demo content
 
