@@ -48,6 +48,12 @@ Note: **tag tv**: documentTags
 <p>Showing <strong>[+current+]</strong> of <strong>[+totalPages+]</strong> Pages</p>
 [+pages+]
 ```
+#### Ditto-like pagination** 
+Setting **&paginate** to **offset** ``` &paginate=`offset` ``` enable ditto-like pagination mode with url parametrs like Ditto: ```blog.html?start=2``` - credits [Pathologic](https://github.com/Pathologic) : 
+
+https://github.com/evolution-cms/evolution/issues/176#issuecomment-326279720 
+
+This will avoid 404 errors with pagination when updating an old Ditto Blogs 
 
 ## 2) blogTPL
 
