@@ -50,7 +50,7 @@ Note: **tag tv**: documentTags
 [+pages+]
 ```
 #### Ditto-like pagination : offset
-Setting **&paginate** to **offset** ``` &paginate=`offset` ``` instead ```&paginate=`pages` ```  enable ditto-like pagination mode with url parametrs like Ditto: ```blog.html?start=2``` instead ```blog.html?page=2``` like use Doclister.
+Setting **&paginate** to **offset** ``` &paginate=`offset` ``` instead ```&paginate=`pages` ```  enable ditto-like pagination mode with url parameters like Ditto: ```blog.html?start=2``` instead ```blog.html?page=2``` like use Doclister.
 
 **This avoid 404 errors with pagination when updating an old Ditto Blog** 
 
