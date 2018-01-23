@@ -1,9 +1,20 @@
 # Doclister-Tags-in-Ditto-Style
 Tutorial and resources to replace Ditto tags with Doclister
 
+# inspirations: 
+* https://github.com/evolution-cms/evolution/issues/176
+* https://github.com/evolution-cms/evolution/issues/451
+* solution by [@pmfx](https://github.com/pmfx) https://github.com/evolution-cms/evolution/issues/176#issuecomment-325036799
+
+## Included Extras
+* **DLlandingTags** snippet: based on [run_doclister_blog](https://gist.github.com/pmfx/bef18541b1835d0855ececf231fa973d) by @pmfx - renamed and improved to fit ditto tags url parameters
+* **DLlandingTags** snippet: based on [run_doclister_itemTags](https://gist.github.com/pmfx/66da4628fbfd34d7a7d4019d70287c07) by @pmfx - renamed and improved to fit ditto tags url parameters
+* **taglinks**(https://modx.com/extras/package/taglinks)
+* **TvTagCloud**(https://github.com/extras-evolution/TvTagCloud)
 
 # Create a Doclister Blog like in Ditto:
 
+#### NOTE: the tutorial is based and tested on evolution 1.4 demo content
 
 ## 1) Blog Page
 
@@ -76,7 +87,7 @@ Method 2) With [tagLinks](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-
 			<p class="dl_link">[+link+]</p>
 		</div>
 ```
-## 3) The Tag Landing page
+## 4) Finally... The Tag Landing page
 
 * Install [DLlandingTags snippet](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob/master/install/assets/snippets/DLlandingTags.tpl)
 * **DLlandingTags** for the Tag Landing page
