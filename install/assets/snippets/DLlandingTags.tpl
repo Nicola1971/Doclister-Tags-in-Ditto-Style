@@ -10,7 +10,7 @@
  * @author pmfx, Nicola1971
  *
  * @example
- *      [[DLlandingTags? &parents=`0` &paginate=`1` &tpl=`blogTPL`  &display=`10` &depth=`4` &tvList=`image,documentTags`]]
+ *      [[DLlandingTags? &parents=`0` &paginate=`1` &tpl=`blogTPL` &tagTV=`documentTags` &display=`10` &depth=`4` &tvList=`image,documentTags`]]
  */
 $id = isset( $id ) ? $id : "tags";
 $tagTV = isset( $tagTV ) ? $tagTV : "documentTags";
