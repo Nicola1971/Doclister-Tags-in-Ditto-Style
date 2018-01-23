@@ -12,8 +12,8 @@
  * @example
  *      [[DLlandingTags? &parents=`0` &paginate=`1` &tpl=`blogTPL`  &display=`10` &depth=`4` &tvList=`image,documentTags`]]
  */
-
 $id = isset( $id ) ? $id : "tags";
+$tagTV = isset( $tagTV ) ? $tagTV : "documentTags";
 $parents = isset( $parents ) ? $parents : "";
 $display = isset( $display ) ? $display : "";
 $depth = isset( $depth ) ? $depth : "";
@@ -69,7 +69,7 @@ $tags_get_var_value = $_GET[$urlencoded_tag];
 // filter results if tags are provided
 if($tags_get_var_value != ''){
   $params['filter_delimiter']=', ';
-  $params['filters']='AND(tv:documentTags:containsOne:'.$tags_get_var_value.')';
+  $params['filters']='AND(tv:'.$tagTV.':containsOne:'.$tags_get_var_value.')';
 }
 // generate list
 $output = $modx->runSnippet('DocLister',$params);
