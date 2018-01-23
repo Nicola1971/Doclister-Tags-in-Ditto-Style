@@ -24,7 +24,7 @@ Tutorial and resources to replace Ditto Blog tags with Doclister
 
 #### NOTE: the tutorial is based and tested on evolution 1.4 demo content
 
-## 1) Blog Page
+## 1) Blog Page (id 2)
 
 **Doclister example call** for the main Blog Page
 
@@ -79,12 +79,14 @@ credits [Pathologic](https://github.com/Pathologic) : https://github.com/evoluti
 
 * Install [DLlandingTags snippet](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob/master/install/assets/snippets/DLlandingTags.tpl)
 * **DLlandingTags** for the Tag Landing page
+
+### Add to your new tag landing page (ie: id 50)
 ```
 [[DLlandingTags? &parents=`0` &paginate=`1` &tpl=`blogTPL` &tagTV=`documentTags` &display=`10` &depth=`4` &tvList=`image,documentTags`]]
 ```
-![tags](https://user-images.githubusercontent.com/7342798/35295722-2eca1056-007a-11e8-9202-409b00875022.png)
-
 I've added to **DLlandingTags** the **tags** placeholder so you can output the current tag in longtitle or other field, like in the old fashioned way :smile:
+
+![tags](https://user-images.githubusercontent.com/7342798/35295722-2eca1056-007a-11e8-9202-409b00875022.png)
 
 ![tag-landing](https://user-images.githubusercontent.com/7342798/35296256-cb3a15f2-007b-11e8-897b-b10b3e9e4963.png)
 
