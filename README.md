@@ -69,6 +69,8 @@ credits [Pathologic](https://github.com/Pathologic) : https://github.com/evoluti
 			<p class="dl_link">[+link+]</p>
 		</div>
 ```
+![blog](https://user-images.githubusercontent.com/7342798/35295805-7b32278a-007a-11e8-9551-b24f094841cf.png)
+
 
 ## 3) Now... The Tag Landing page
 
