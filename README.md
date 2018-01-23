@@ -39,7 +39,7 @@ Note: **tag tv**: documentTags
 	&tvList=`image,documentTags`
 	&prepare=`prepareBlog`
 	&summary=`notags,len:350` 
-	&paginate=`pages` 
+	&paginate=`offset` 
 	&extender=`user` 
 	&usertype=`mgr` 
 	&userFields=`createdby,publishedby` 
@@ -49,8 +49,8 @@ Note: **tag tv**: documentTags
 <p>Showing <strong>[+current+]</strong> of <strong>[+totalPages+]</strong> Pages</p>
 [+pages+]
 ```
-#### Ditto-like pagination
-Setting **&paginate** to **offset** ``` &paginate=`offset` ``` enable ditto-like pagination mode with url parametrs like Ditto: ```blog.html?start=2``` instead ```blog.html?page=2``` like use Doclister.
+#### Ditto-like pagination : offset
+Setting **&paginate** to **offset** ``` &paginate=`offset` ``` instead ```&paginate=`pages` ```  enable ditto-like pagination mode with url parametrs like Ditto: ```blog.html?start=2``` instead ```blog.html?page=2``` like use Doclister.
 
 credits [Pathologic](https://github.com/Pathologic) : https://github.com/evolution-cms/evolution/issues/176#issuecomment-326279720 
 
