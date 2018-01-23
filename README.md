@@ -132,11 +132,11 @@ With [tagLinks](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob
 ```
 ![tags-onpage](https://user-images.githubusercontent.com/7342798/35296349-099b9f28-007c-11e8-9b43-a5c751207454.png)
 
-## Add a tags cloud
+## Add a Tag Cloud to the sidebar
 * With [tvtagcloud](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob/master/install/assets/snippets/tvtagcloud.tpl)
 ```
 [[TvTagCloud? &parent=`2` &landing=`50` &tvTags=`documentTags` &showCount=`0`]]
 ```
 ![tagcloud](https://user-images.githubusercontent.com/7342798/35296362-1a1a8ef4-007c-11e8-9939-124521ab22e4.png)
 
-# The End
+# The End :)
