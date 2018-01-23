@@ -11,7 +11,7 @@
  *
  * @example
  *  on a page:    [[tagLinks? &tv=`documentTags` &separator=`, ` &path=`50`]] // 50 is the ID of your tags landing page
- *  on doclister tpl: [[tagLinks? &id=`[+id+]` &value=`[+documentTags+]` &separator=`, ` &path=`50`]] with &hiddenFields=`tags` added to the Ditto call
+ *  on doclister tpl: [[tagLinks? &id=`[+id+]` &value=`[+documentTags+]` &separator=`, ` &path=`50`]] 
  */
 
 /**
