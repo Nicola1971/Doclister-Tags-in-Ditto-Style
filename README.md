@@ -79,7 +79,7 @@ Method 2) With [tagLinks](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-
 
 ## 3) The Tag Landing page
 
-* 1) Install [DLlandingTags snippet](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob/master/install/assets/snippets/DLlandingTags.tpl)
+* Install [DLlandingTags snippet](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob/master/install/assets/snippets/DLlandingTags.tpl)
 * **DLlandingTags** for the Tag Landing page
 ```
 [[DLlandingTags? &parents=`0` &paginate=`1` &tpl=`blogTPL`  &display=`10` &depth=`4` &tvList=`image,documentTags`]]
