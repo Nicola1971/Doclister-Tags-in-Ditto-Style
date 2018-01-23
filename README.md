@@ -9,8 +9,8 @@ Tutorial and resources to replace Ditto Blog tags with Doclister
 ## Included Extras
 * **DLlandingTags** snippet: based on [run_doclister_blog](https://gist.github.com/pmfx/bef18541b1835d0855ececf231fa973d) by @pmfx - renamed, added tagTV parameter, more dl params and improved to fit ditto tags url parameters (&tags=)
 * **DLlandingTags** snippet: based on [run_doclister_itemTags](https://gist.github.com/pmfx/66da4628fbfd34d7a7d4019d70287c07) by @pmfx - just renamed 
-* **taglinks**(https://modx.com/extras/package/taglinks)
-* **TvTagCloud**(https://github.com/extras-evolution/TvTagCloud)
+* **taglinks** https://modx.com/extras/package/taglinks
+* **TvTagCloud** https://github.com/extras-evolution/TvTagCloud
 
 ## Goals
 * Create a Blog like in Ditto, with tags
