@@ -1,4 +1,4 @@
-# Doclister-Tags-in-Ditto-Style
+# Doclister Tags in Ditto Style
 Tutorial and resources to replace Ditto Blog tags with Doclister
 
 # inspirations: 
