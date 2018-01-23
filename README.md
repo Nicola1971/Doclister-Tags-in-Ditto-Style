@@ -55,6 +55,8 @@ credits [Pathologic](https://github.com/Pathologic) : https://github.com/evoluti
 
 **This will avoid 404 errors with pagination when updating an old Ditto Blogs** 
 
+
+
 ## 2) blogTPL
 
 ```
@@ -69,7 +71,7 @@ credits [Pathologic](https://github.com/Pathologic) : https://github.com/evoluti
 			<p class="dl_link">[+link+]</p>
 		</div>
 ```
-![blog](https://user-images.githubusercontent.com/7342798/35295805-7b32278a-007a-11e8-9551-b24f094841cf.png)
+![blogtpl1](https://user-images.githubusercontent.com/7342798/35296125-5a305916-007b-11e8-8c0f-4c0636cf0ba2.png)
 
 
 ## 3) Now... The Tag Landing page
@@ -115,7 +117,7 @@ With [tagLinks](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob
 			<p class="dl_link">[+link+]</p>
 		</div>
 ```
-
+![blogtpl2](https://user-images.githubusercontent.com/7342798/35296150-6ee8d55e-007b-11e8-9f43-1099f3cb43bb.png)
 
 # More 
 
