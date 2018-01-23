@@ -1,5 +1,5 @@
 # Doclister-Tags-in-Ditto-Style
-Tutorial and resources to replace Ditto tags with Doclister
+Tutorial and resources to replace Ditto Blog tags with Doclister
 
 # inspirations: 
 * https://github.com/evolution-cms/evolution/issues/176
