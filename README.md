@@ -48,12 +48,12 @@ Note: **tag tv**: documentTags
 <p>Showing <strong>[+current+]</strong> of <strong>[+totalPages+]</strong> Pages</p>
 [+pages+]
 ```
-#### Ditto-like pagination** 
-Setting **&paginate** to **offset** ``` &paginate=`offset` ``` enable ditto-like pagination mode with url parametrs like Ditto: ```blog.html?start=2``` - credits [Pathologic](https://github.com/Pathologic) : 
+#### Ditto-like pagination
+Setting **&paginate** to **offset** ``` &paginate=`offset` ``` enable ditto-like pagination mode with url parametrs like Ditto: ```blog.html?start=2``` instead ```blog.html?page=2``` like use Doclister.
 
-https://github.com/evolution-cms/evolution/issues/176#issuecomment-326279720 
+credits [Pathologic](https://github.com/Pathologic) : https://github.com/evolution-cms/evolution/issues/176#issuecomment-326279720 
 
-This will avoid 404 errors with pagination when updating an old Ditto Blogs 
+**This will avoid 404 errors with pagination when updating an old Ditto Blogs** 
 
 ## 2) blogTPL
 
@@ -107,7 +107,7 @@ With [tagLinks](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob
 			<h3><a href="[~[+id+]~]" title="[+e.title+]">[+e.title+]</a></h3>
 			<div class="dl_info">
 				By <strong>[+user.username.createdby+]</strong> on [+date+].
-				<a href="[+url+]#commentsAnchor">Comments <span class="badge">[+jotcount+]</span></a> [[tagLinks? &id=`[+id+]` &value=`[+documentTags+]` &separator=`, ` &path=`50`]]
+				<a href="[+url+]#commentsAnchor">Comments <span class="badge">[+jotcount+]</span></a> [[tagLinks? &id=`[+id+]` &value=`[+documentTags+]` &separator=`, ` &path=`50` &label=`Tags: `]]
 			</div>
 			[+summary+]
 			<p class="dl_link">[+link+]</p>
@@ -120,7 +120,7 @@ With [tagLinks](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob
 ## Add tags on the page
 * With [tagLinks](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob/master/install/assets/snippets/tagLinks.tpl)
 ```
-[[tagLinks? &tv=`documentTags` &separator=`, ` &path=`50`]]
+[[tagLinks? &tv=`documentTags` &separator=`, ` &path=`50` &label=`Tags: `]]
 ```
 ## Add a tags cloud
 * With [tvtagcloud](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob/master/install/assets/snippets/tvtagcloud.tpl)
