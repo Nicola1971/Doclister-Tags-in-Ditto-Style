@@ -83,6 +83,10 @@ credits [Pathologic](https://github.com/Pathologic) : https://github.com/evoluti
 ```
 ![tags](https://user-images.githubusercontent.com/7342798/35295722-2eca1056-007a-11e8-9202-409b00875022.png)
 
+I've added to **DLlandingTags** the **tags** placeholder so you can output the current tag in longtitle or other field, like in the old fashioned way :smile:
+
+![tag-landing](https://user-images.githubusercontent.com/7342798/35296256-cb3a15f2-007b-11e8-897b-b10b3e9e4963.png)
+
 ## 4) Add tags to blogTPL
 
 Note: **id of Tag Landing page**: 50
@@ -126,8 +130,13 @@ With [tagLinks](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob
 ```
 [[tagLinks? &tv=`documentTags` &separator=`, ` &path=`50` &label=`Tags: `]]
 ```
+![tags-onpage](https://user-images.githubusercontent.com/7342798/35296349-099b9f28-007c-11e8-9b43-a5c751207454.png)
+
 ## Add a tags cloud
 * With [tvtagcloud](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob/master/install/assets/snippets/tvtagcloud.tpl)
 ```
 [[TvTagCloud? &parent=`2` &landing=`50` &tvTags=`documentTags` &showCount=`0`]]
 ```
+![tagcloud](https://user-images.githubusercontent.com/7342798/35296362-1a1a8ef4-007c-11e8-9939-124521ab22e4.png)
+
+# The End
