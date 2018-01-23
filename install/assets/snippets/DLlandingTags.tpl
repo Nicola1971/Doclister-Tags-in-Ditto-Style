@@ -71,6 +71,9 @@ if($tags_get_var_value != ''){
   $params['filter_delimiter']=', ';
   $params['filters']='AND(tv:'.$tagTV.':containsOne:'.$tags_get_var_value.')';
 }
+// generate tags placeholder for the landing page title
+$modx->setPlaceholder("tags", $tags_get_var_value);
+
 // generate list
 $output = $modx->runSnippet('DocLister',$params);
 $output .= '<div id="dl_pages">[+'.$id.'.pages+]</div>';
