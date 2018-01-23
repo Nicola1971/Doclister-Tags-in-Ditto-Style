@@ -14,7 +14,7 @@ Tutorial and resources to replace Ditto Blog tags with Doclister
 
 ## Goals
 * Create a Blog like in Ditto, with tags
-* Create a Tags Landing page like in old MODx Evolution with Ditto
+* Create a Tags Landing page like Ditto with DocLister
 * Tags URLS like Ditto: 100% compatible with TagLings and TvTagCloud snippets. ie:  ```&tags=```
 * Display tags in Doclister item
 * Display tags on (item) page
