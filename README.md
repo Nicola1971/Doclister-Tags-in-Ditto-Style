@@ -53,11 +53,10 @@ Note: **tag tv**: documentTags
 Setting **&paginate** to **offset** ``` &paginate=`offset` ``` instead ```&paginate=`pages` ```  enable ditto-like pagination mode with url parameters like Ditto: ```blog.html?start=2``` instead ```blog.html?page=2``` like use Doclister.
 
 **This avoid 404 errors with pagination when updating an old Ditto Blog** 
-For a new project use ```&paginate=`pages` ```
 
 credits [Pathologic](https://github.com/Pathologic) : https://github.com/evolution-cms/evolution/issues/176#issuecomment-326279720 
 
-
+For a new project use ```&paginate=`pages` ```
 
 ## 2) blogTPL
 
