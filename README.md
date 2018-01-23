@@ -54,7 +54,7 @@ Setting **&paginate** to **offset** ``` &paginate=`offset` ``` enable ditto-like
 
 credits [Pathologic](https://github.com/Pathologic) : https://github.com/evolution-cms/evolution/issues/176#issuecomment-326279720 
 
-**This will avoid 404 errors with pagination when updating an old Ditto Blogs** 
+**This will avoid 404 errors with pagination when updating an old Ditto Blog** 
 
 
 
