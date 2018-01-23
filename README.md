@@ -38,19 +38,17 @@ Note: **tag tv**: documentTags
 	&tvList=`image,documentTags`
 	&prepare=`prepareBlog`
 	&summary=`notags,len:350` 
-	&tvPrefix=`` 
-	&paginate=`offset` 
+	&paginate=`pages` 
 	&extender=`user` 
 	&usertype=`mgr` 
 	&userFields=`createdby,publishedby` 
 	&tpl=`blogTPL` 
-	&paginate=`1` 
 ]]
 
 <p>Showing <strong>[+current+]</strong> of <strong>[+totalPages+]</strong> Pages</p>
-<div id="dl_pages">[+pages+]</div>
-<p>&nbsp;</p>
+[+pages+]
 ```
+
 ## 2) blogTPL
 
 ```
