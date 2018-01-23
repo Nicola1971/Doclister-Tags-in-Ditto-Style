@@ -77,7 +77,7 @@ credits [Pathologic](https://github.com/Pathologic) : https://github.com/evoluti
 ```
 [[DLlandingTags? &parents=`0` &paginate=`1` &tpl=`blogTPL` &tagTV=`documentTags` &display=`10` &depth=`4` &tvList=`image,documentTags`]]
 ```
-
+![tags](https://user-images.githubusercontent.com/7342798/35295722-2eca1056-007a-11e8-9202-409b00875022.png)
 
 ## 4) Add tags to blogTPL
 
