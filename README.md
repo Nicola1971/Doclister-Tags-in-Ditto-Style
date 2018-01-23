@@ -11,7 +11,7 @@ Tutorial and resources to replace Ditto Blog tags with Doclister
 # Inspirations: 
 * https://github.com/evolution-cms/evolution/issues/176
 * https://github.com/evolution-cms/evolution/issues/451
-* solution by [@pmfx](https://github.com/pmfx) https://github.com/evolution-cms/evolution/issues/176#issuecomment-325036799
+* solution idea by [@pmfx](https://github.com/pmfx) https://github.com/evolution-cms/evolution/issues/176#issuecomment-325036799
 
 ## Included Extras
 * **DLlandingTags** snippet: based on [run_doclister_blog](https://gist.github.com/pmfx/bef18541b1835d0855ececf231fa973d) by @pmfx - renamed, added tagTV parameter, tags placeholder, more dl params and improved to fit ditto tags url parameters (&tags=)
