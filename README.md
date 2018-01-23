@@ -12,6 +12,13 @@ Tutorial and resources to replace Ditto tags with Doclister
 * **taglinks**(https://modx.com/extras/package/taglinks)
 * **TvTagCloud**(https://github.com/extras-evolution/TvTagCloud)
 
+## Goals
+* Create a Blog like in Ditto, with tags
+* Create a Tags Landing page like in old MODx Evolution with Ditto
+* Tags URLS like Ditto: 100% compatible with TagLings and TvTagCloud snippets
+* Display tags in Doclister item
+* Display tags on (item) page
+
 # Create a Doclister Blog like in Ditto:
 
 #### NOTE: the tutorial is based and tested on evolution 1.4 demo content
@@ -107,13 +114,3 @@ Method 2) With [tagLinks](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-
 ```
 [[TvTagCloud? &parent=`2` &landing=`50` &tvTags=`documentTags` &showCount=`0`]]
 ```
-
-
-
-
-
-
-```
-
-
-
