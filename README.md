@@ -76,7 +76,6 @@ Method 2) With [tagLinks](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-
 			<p class="dl_link">[+link+]</p>
 		</div>
 ```
-
 ## 3) The Tag Landing page
 
 * Install [DLlandingTags snippet](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob/master/install/assets/snippets/DLlandingTags.tpl)
@@ -84,5 +83,26 @@ Method 2) With [tagLinks](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-
 ```
 [[DLlandingTags? &parents=`0` &paginate=`1` &tpl=`blogTPL`  &display=`10` &depth=`4` &tvList=`image,documentTags`]]
 ```
+
+# More 
+
+## Add tags on the page
+* With [tagLinks](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob/master/install/assets/snippets/tagLinks.tpl)
+```
+[[tagLinks? &tv=`documentTags` &separator=`, ` &path=`50`]]
+```
+## Add a tags cloud
+* With [tvtagcloud](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob/master/install/assets/snippets/tvtagcloud.tpl)
+```
+[[TvTagCloud? &parent=`2` &landing=`50` &tvTags=`documentTags` &showCount=`0`]]
+```
+
+
+
+
+
+
+```
+
 
 
