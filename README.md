@@ -74,7 +74,7 @@ For a new project use ```&paginate=`pages` ```
 ```
 ![blogtpl1](https://user-images.githubusercontent.com/7342798/35296125-5a305916-007b-11e8-8c0f-4c0636cf0ba2.png)
 
-## 2) Now... The Tag Landing page
+## 2) Now... The Tags Landing page
 
 * Install [DLlandingTags snippet](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob/master/install/assets/snippets/DLlandingTags.tpl)
 
