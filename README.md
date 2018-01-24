@@ -77,7 +77,6 @@ For a new project use ```&paginate=`pages` ```
 ## 2) Now... The Tag Landing page
 
 * Install [DLlandingTags snippet](https://github.com/Nicola1971/Doclister-Tags-in-Ditto-Style/blob/master/install/assets/snippets/DLlandingTags.tpl)
-* **DLlandingTags** for the Tag Landing page
 
 ### Add to your new tag landing page (ie: id 50)
 ```
